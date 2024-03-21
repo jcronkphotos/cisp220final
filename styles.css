@@ -1,0 +1,234 @@
+															/* Reset Styles */
+
+a, article, body, div, figcaption, figure, footer, header, h1, 
+h2, h3, img, li, nav, p, section, ul, fieldset, form, input,
+label, legend, textarea {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+nav.sitenavigation ul li {
+	list-style-type: none;
+}
+
+/*nav.sitenavigation ul {
+	border: 2px solid #edea42;
+	width: 70%;
+}*/
+
+															/* Skip Navigation Link */
+
+															/* Site Navigation */
+
+nav.sitenavigation li {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+	margin: auto;
+}
+
+nav.sitenavigation a:link {
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+li:nth-child(1) a, li:nth-child(2) a, li:nth-child(3) a, li:nth-child(4) a {
+	color: #edea42;
+	text-shadow: 2px 2px 3px #9c872d;
+}
+
+nav.sitenavigation a:hover {
+	color: red;
+	
+}
+
+															/* Body and Page Container */
+
+head, body {
+	background-color: #decc2c;
+}
+
+															/* Header */
+
+h1 {
+	font-size: 5em;
+	color: #edea42;
+	padding: 1%;
+	text-shadow: 2px 2px 3px #9c872d;
+}
+
+															/* Main Content */
+
+div.maincontent, div.inputtext {
+	/*border: 1px solid black;*/
+/*	height: 500px;	*/
+	margin: 20px;
+	margin-top: 40px;
+}
+
+img#elliebeach {
+	width: 400px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	filter: drop-shadow(0 0 10px black); 
+	padding: 20px;
+}
+
+															/* About Landing Page */
+															
+div.aboutcontent {
+	padding: 2%;
+	text-align: center;
+	border: 2px solid #edea42;
+	margin: 2em;
+	width: 70%;
+	height: 400px;
+}
+
+h2.abouttitle {
+	margin-bottom: 1.5em;
+}
+
+															/* Portfolio Landing Page */
+															
+div.portfoliolanding {
+	margin: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+div.portfoliolanding a img {
+	display: inline-block;
+	padding: 10px;
+}
+
+a#portfolio1 img {
+	width: 40%;
+	z-index: -1;
+}
+
+a#portfolio2 img {
+	width: 40%;
+}
+
+
+
+															/* Booking Banner */
+
+div.booknow {
+	width: 99%;
+	background-color: rgba(201, 185, 40, .5);
+	text-align: center;
+	padding: .5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.booknow a {
+	text-decoration: none;
+	color: black;
+}
+
+															/* Booking Landing Page */
+															
+form {
+	padding: .5em;
+	background-color: #eb8621;
+}
+
+fieldset {
+	margin-bottom: 0.5em;
+	padding: 2.5em 2% 0.5em;
+	position: relative;
+	background-color: #decc2c;
+}
+
+h2.contact {
+	text-align: center;
+	padding: 20px;
+	font-size: 3em;
+}
+
+fieldset.contactinfo input {
+	position: absolute;
+	left: 5em;
+	top: -3px;
+}
+
+fieldset.contactinfo label {
+	margin: 0.6em 0;
+	display: block;
+	position: relative;
+}
+
+form > fieldset > legend {
+	font-size: 1.25em;
+	font-family: PTSansCaption, Georgia, "Times New Roman", Times, serif;
+	position: relative;
+	top: 0.9em;
+	font-weight: bold;
+}
+
+label {
+	font-weight: bold;
+}
+
+input, textarea {
+	padding: 0.2em;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+textarea {
+	width: 99%;
+	display: block;
+	border-radius: 5px;
+}
+
+input#nameinput, input#emailinput, input#phoneinput {
+	width: 20em;
+}
+
+fieldset.submitbutton {
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+input#submit {
+	font-family: PTSansCaption, Georgia, "Times New Roman", Times, serif;
+	background-color: #e8e8e8;
+	font-size: 1.25em;
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+															/* Footer */
+
+div.separator {
+	border: 1px solid black;
+	height: 1px;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 90%;
+
+}
+
+div.footerinfo {
+	text-align: center;
+	margin: auto;
+}
+
+div.footerinfo p {
+	display: inline-block;
+	padding: 0 1% 1% 1%;
+}
+
+															/* Print Styles */
